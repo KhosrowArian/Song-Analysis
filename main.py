@@ -24,8 +24,6 @@ class Song:
 
 """
 
-Place your answers to the Design check questions here:
-
 
 
 1.Term frequency is how often a word appears in an individual song. Inverse 
@@ -320,28 +318,5 @@ def main(filename: str, lyrics: str):
 
     print(nearest_neighbor(lyrics, corpus, corpus_tf_idf, corpus_idf).genre)
 
-    '''
-
-        Step by step:
-
-        1. create an empty hashtable
-
-        2. Do a for loop over the list of songs. If the song ID is not in the
-
-        dictionary, map the song ID to an empty dictionary.
-
-        3. Do another for loop over an individual song's lyrics. Map each word with 
-
-        the number of times the words comes up in the song.
-
-        4. the key is song ID and the value is a dictionary. In this inner
-
-        dictionary the key is going to be a word that comes up in the song and the
-
-        value is the amount of times that word appeared in the song (tf). 
-
-
-
-        '''
 
 
